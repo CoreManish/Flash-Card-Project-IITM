@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        *{margin: 0;}
+
+        #menu{width: 100%;height: 50px; background: rgb(4, 65, 94);vertical-align: middle;color: white;}
+        ul{list-style: none;width: 100%;height: 50px;}
+        ul li{float: left;height:;background: rgb(4, 75, 107);padding: 10px;color: rgb(219, 219, 219);}
+        ul li a{color: wheat;text-decoration: none;}
+        #special{background: wheat;color: black;border: 1px solid green;}
+
+        th {background: rgb(4, 65, 94);color: honeydew;}
+        table,th,td{padding: 8px;border: 1px solid grey;border-collapse: collapse;}
+
+       table a{background: rgb(5, 119, 119);padding: 7px;color: wheat;text-decoration: none;}
+        
+    </style>
+    
+</head>
+<body>
+    <center>
+    <div id="menu">
+        <ul>
+            <li>Manish Kumar</li>
+            <li> <a href="/">Home</a></li>
+            <li><a href="/createdeck">Add Deck</a></li>
+            <li> <a href="/logout">Logout</a> </li>
+            
+        </ul>
+    </div>
+    <h2>Your Decks</h2>
+    <table>
+        <tr>
+            <th>Deck Name</th>
+            <th>Average Deck Score</th>
+            <th>Last Reviewed Time</th>
+            <th>Action</th>
+        </tr>
+
+        {% for row in rows %}
+        <tr>
+            <td><a href="/review/{{row[0]}}" id="special">{{row[0]}}</a></td>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+            <td>
+                <a href="/deletedeck/{{row[0]}}">Delete</a>
+                <a href="/updatedeck/{{row[0]}}">Update</a> 
+                <a href="/addcard/{{row[0]}}">Add a Card</a>
+            </td>
+        </tr>
+        {% endfor %}
+        
+    </table>
+</center>
+</body>
+</html>
