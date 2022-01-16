@@ -1,6 +1,6 @@
 # Flash_Card_Project_IITM
 
-  
+### Technical details  
 - main.py file contains all controller so Run code from main.py file
 
 - Now you will have to register
@@ -28,5 +28,10 @@
 - If a deck is not opening:
     - Either there is no card or 
     - No card left to review right now, so wait
+ 
+### About the project
+- Technology used : Python, flask,jinja, SQLite, HTML, CSS
+- Live link : [Go](https://manishflashcard.curecode.repl.co/)
+- Screenshot: ![screenshot](static/flashcard.png)
       
-###### This project is part of academic activity for MAD1
+###### This project is part of academic activity for MAD1 at IITM
