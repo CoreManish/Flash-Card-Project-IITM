@@ -1,6 +1,11 @@
-# Flash_Card_Project_IITM
-
-### Technical details  
+### Flash_Card_Project_IITM
+#### Technology used
+- HTML
+- CSS
+- Python
+- flask
+- SQLite
+#### Technical details  
 - main.py file contains all controller so Run code from main.py file
 
 - Now you will have to register
@@ -29,8 +34,7 @@
     - Either there is no card or 
     - No card left to review right now, so wait
  
-### About the project
-- Technology used : Python, flask,jinja, SQLite, HTML, CSS
+#### More about the project
 - Live link : [Go](https://manishflashcard.curecode.repl.co/)
 - Screenshot: ![screenshot](static/flashcard.png)
       
