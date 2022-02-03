@@ -1,10 +1,11 @@
 ### Flash_Card_Project_IITM
 #### Technology used
-- HTML
-- CSS
-- Python
-- flask
-- SQLite
+- HTML : Markup
+- CSS : Style the markup
+- Python : Backend Programming
+- flask : Backend framework
+- SQLite : Database to store data
+- sqlite3 module : A Driver to connect SQLite database with flask
 #### Technical details  
 - main.py file contains all controller so Run code from main.py file
 
