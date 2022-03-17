@@ -36,7 +36,7 @@
     - No card left to review right now, so wait
  
 #### More about the project
-- Live link : [Go](https://manishflashcard.curecode.repl.co/)
+- Live link : [Go](https://flashcard-v1.curecode.repl.co/)
 - Screenshot: ![screenshot](static/flashcard.png)
       
 ###### This project is part of academic activity for MAD1 at IITM
